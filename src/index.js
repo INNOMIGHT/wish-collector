@@ -31,7 +31,7 @@ class WishCollector extends React.Component {
             })
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.fetchWishes();
     }
 
